@@ -16,5 +16,14 @@
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack",
     "dev": "webpack-dev-server --content-base public"
+  },
+  "dependencies": {
+    "3box": "^1.20.3",
+    "@portis/web3": "^2.0.0-beta.56",
+    "@walletconnect/web3-provider": "^1.0.15",
+    "authereum": "^0.0.4-beta.164",
+    "fortmatic": "^2.0.6",
+    "urlon": "^3.0.1",
+    "web3modal": "^1.8.0"
   }
 }
